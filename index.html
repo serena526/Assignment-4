@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Request Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Post Request</h2>
+    <form id="dataForm">
+        <div class="form-group">
+            <label for="rollno">Enter Roll No:</label>
+            <input type="text" id="rollno" name="rollno" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Enter Age:</label>
+            <input type="text" id="age" name="age" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Enter Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <h2>Student Details</h2>
+    <div class="table-container">
+        <table id="userList" class="details-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
